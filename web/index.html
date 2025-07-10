@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Champion App</title>
+
+    <!-- 1) Force the HTML renderer (required by google_maps_flutter_web) -->
+    <script>
+      // Must come before loading main.dart.js
+      window.flutterWebRenderer = "html";
+    </script>
+
+    <!-- 2) Load the Google Maps JS API with your key -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGlsBKSVuXshVsp8GynHrKensyM1D1vY0&libraries=places">
+    </script>
+  </head>
+  <body>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>
